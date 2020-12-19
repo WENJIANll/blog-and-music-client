@@ -7,6 +7,7 @@
     <play-bar/>
     <scroll-top/> 
     <the-footer/>  
+    <div class="miniaudio">我是播放器</div>
   </div>
 </template>
 

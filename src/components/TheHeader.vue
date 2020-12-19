@@ -20,9 +20,9 @@
                 </div>
             </div>
         </li>
-        <li v-show="!loginIn" :class="{active: item.name == activeName}" v-for="item in loginMsg" :key="item.path" @click="goPage(item.path,item.name)">
-            {{item.name}}
-        </li>
+            <li v-show="!loginIn" :class="{active: item.name == activeName}" v-for="item in loginMsg" :key="item.path" @click="goPage(item.path,item.name)">
+                {{item.name}}
+            </li>
     </ul>
     <div class="header-right" v-show="loginIn">
         <div id='user'>
